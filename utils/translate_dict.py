@@ -25,7 +25,7 @@ class TranslateDict:
 
     def get_dict(self):
         res_dict = {}
-        res = self.connection.execute("SELECT * FROM translate_dict")
+        res = self.connection.execute("select * from translate_dict order by length(text_to_translate) DESC")
         res = res.fetchall()
         for line in res:
             res_dict.update({line[1]: line[2]})
