@@ -4,7 +4,7 @@ itsdangerous==1.1.0
 Jinja2==2.10.3
 lxml==4.4.1
 MarkupSafe==1.1.1
-Pillow==6.2.0
+Pillow==9.0.1
 python-pptx==0.6.18
 Werkzeug==0.16.0
 XlsxWriter==1.2.1
